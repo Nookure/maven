@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.nookure.mast</groupId>
+  <artifactId>MAStaff-API</artifactId>
+  <versioning>
+    <lastUpdated>20231222095754</lastUpdated>
+    <snapshot>
+      <timestamp>20231222.095754</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.1.0-20231222.095754-1</value>
+        <updated>20231222095754</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>3.1.0-20231222.095754-1</value>
+        <updated>20231222095754</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>3.1.0-SNAPSHOT</version>
+</metadata>
