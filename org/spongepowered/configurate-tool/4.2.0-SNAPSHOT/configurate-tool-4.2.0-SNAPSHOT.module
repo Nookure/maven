@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spongepowered",
+    "module": "configurate-tool",
+    "version": "4.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-tool-4.2.0-SNAPSHOT.jar",
+          "url": "configurate-tool-4.2.0-SNAPSHOT.jar",
+          "size": 24726,
+          "sha512": "34e8911cd818e70f85cd4945be66cc9c1233e92abf5db2c80768c1cbf4cc6bc6f37da6f5cea00309db1c9b1b3af8fddaa2c4343ee30404db25b00b4f3eab5c5e",
+          "sha256": "3906d25b7997090405349b1f766c7e12f23ca8831f6918a0d1a080e1accc479b",
+          "sha1": "d9f10c398e08059b0b039d436bb24f24a2d4e66d",
+          "md5": "72bc8bf95addc909c20d6d3ed47c25d7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-xml",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-yaml",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-gson",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-hocon",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-extra-kotlin",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.ajalt",
+          "module": "clikt",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.fusesource.jansi",
+          "module": "jansi",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-tool-4.2.0-SNAPSHOT.jar",
+          "url": "configurate-tool-4.2.0-SNAPSHOT.jar",
+          "size": 24726,
+          "sha512": "34e8911cd818e70f85cd4945be66cc9c1233e92abf5db2c80768c1cbf4cc6bc6f37da6f5cea00309db1c9b1b3af8fddaa2c4343ee30404db25b00b4f3eab5c5e",
+          "sha256": "3906d25b7997090405349b1f766c7e12f23ca8831f6918a0d1a080e1accc479b",
+          "sha1": "d9f10c398e08059b0b039d436bb24f24a2d4e66d",
+          "md5": "72bc8bf95addc909c20d6d3ed47c25d7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-tool-4.2.0-SNAPSHOT-javadoc.jar",
+          "url": "configurate-tool-4.2.0-SNAPSHOT-javadoc.jar",
+          "size": 327,
+          "sha512": "3f782186dcfd63b2ec3f03830f4c98b45d7962966d8b6989ad9c3b2e6a0c071fc9da0c553970e86caa7b9aeb8867096554f5b5a66dfa9369c1d6e787e6fd6d3e",
+          "sha256": "4580e966c5cb0c8bd97d28e9043e1a8f432ef2bb2ad06c21a6062c4d7e6d3cb2",
+          "sha1": "5dfbac40b61f9b354b9d4acbf049e0383db13918",
+          "md5": "2d4ef9259a8822e8f527b1e50c88a660"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configurate-tool-4.2.0-SNAPSHOT-sources.jar",
+          "url": "configurate-tool-4.2.0-SNAPSHOT-sources.jar",
+          "size": 3969,
+          "sha512": "f7e0da38211e7b1fd7dd7271df5febf25d3b082aedc8bd717efee85b0370df679b43fcdade37516ef0c67ff3c7886402e6c0d41e34b22fd7e5584bdcd8589aa1",
+          "sha256": "91bb2341abe71ed5ffadf9d8712ce8505bd39247b64c09a7d7f69195e5ae7af6",
+          "sha1": "d8799300e331c433b5134f37354b779f195b83ae",
+          "md5": "b6945ee35b75be5b644429868c07cece"
+        }
+      ]
+    }
+  ]
+}

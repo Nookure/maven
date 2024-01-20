@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spongepowered",
+    "module": "configurate-extra-guice",
+    "version": "4.2.0-YAML-COMMENTED-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-extra-guice-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "url": "configurate-extra-guice-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "size": 3076,
+          "sha512": "943ee4fa5d06542e25fb80f2028129ed39042b9ee0693190f228b46b24da9c7fd4164fc325d35774414cfbddc13cda897e325b14ce1c7ba6f6f892c40fc4de04",
+          "sha256": "5cc0e412471aa8eced9e2b3815a735f653a9da9fddce825fdc3b115db424d8bd",
+          "sha1": "5fa2e455139f2d395f7a44d7b3aa7002e22be7c9",
+          "md5": "c37170df4b126d5bac74de69bc6d51d4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "4.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-extra-guice-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "url": "configurate-extra-guice-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "size": 3076,
+          "sha512": "943ee4fa5d06542e25fb80f2028129ed39042b9ee0693190f228b46b24da9c7fd4164fc325d35774414cfbddc13cda897e325b14ce1c7ba6f6f892c40fc4de04",
+          "sha256": "5cc0e412471aa8eced9e2b3815a735f653a9da9fddce825fdc3b115db424d8bd",
+          "sha1": "5fa2e455139f2d395f7a44d7b3aa7002e22be7c9",
+          "md5": "c37170df4b126d5bac74de69bc6d51d4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-extra-guice-4.2.0-YAML-COMMENTED-SNAPSHOT-javadoc.jar",
+          "url": "configurate-extra-guice-4.2.0-YAML-COMMENTED-SNAPSHOT-javadoc.jar",
+          "size": 77523,
+          "sha512": "8583046207c82a9f7fb8e9158c96c8f516035325684bd236b5d570aa2b6bf2da20fbd5a339ae72939e50cf122a771644126e8545b4d847ab617afc757e968221",
+          "sha256": "057d85920fd5a658996a55113b6131fcc3a944e001daf53cbee86ae3d73c6b9e",
+          "sha1": "467bb598523c4c24f9c90c0ae2eac5b2171ec8f9",
+          "md5": "bb04c5f4e81dbda8eb1bb8abcdc7e22d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configurate-extra-guice-4.2.0-YAML-COMMENTED-SNAPSHOT-sources.jar",
+          "url": "configurate-extra-guice-4.2.0-YAML-COMMENTED-SNAPSHOT-sources.jar",
+          "size": 3065,
+          "sha512": "db40bcc75172bef9bb96c928a864347f1e9f85f1d68eb9d888a4ba226bc3e2f315e0bfd897f0190d220ae19dd876c31d59fd0c9b816232dfb7773d16178072f8",
+          "sha256": "25805f8e6c9382d1b5c2daf4f1c6e1a9cddf1aa75907dc27cf277dc1ddc6ffcf",
+          "sha1": "9cc1956875c1f6180125e22b1bef7779241c18d2",
+          "md5": "040c8c49bb4a393cee89200775bddd6f"
+        }
+      ]
+    }
+  ]
+}

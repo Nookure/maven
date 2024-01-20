@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spongepowered",
+    "module": "configurate-extra-kotlin",
+    "version": "4.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-extra-kotlin-4.2.0-SNAPSHOT.jar",
+          "url": "configurate-extra-kotlin-4.2.0-SNAPSHOT.jar",
+          "size": 65740,
+          "sha512": "43d0221cca1ed9df3901a96e7fc6ab2725ce8418788051fd32aea8c92d0d8a4f99cbfa6cd5fe04a3fe6ab440fe2df57b1d7d70389fbdd157e9d23016fbc61d2f",
+          "sha256": "c3c503f0997481eb5780aac7a811f775d9648326b5e1aa7eb3b937a16a70210f",
+          "sha1": "fe0652d44dd59040b451447f3f8c51bb93cc147c",
+          "md5": "3219bf32c0b49786a3154ff8294926eb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-extra-kotlin-4.2.0-SNAPSHOT.jar",
+          "url": "configurate-extra-kotlin-4.2.0-SNAPSHOT.jar",
+          "size": 65740,
+          "sha512": "43d0221cca1ed9df3901a96e7fc6ab2725ce8418788051fd32aea8c92d0d8a4f99cbfa6cd5fe04a3fe6ab440fe2df57b1d7d70389fbdd157e9d23016fbc61d2f",
+          "sha256": "c3c503f0997481eb5780aac7a811f775d9648326b5e1aa7eb3b937a16a70210f",
+          "sha1": "fe0652d44dd59040b451447f3f8c51bb93cc147c",
+          "md5": "3219bf32c0b49786a3154ff8294926eb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-extra-kotlin-4.2.0-SNAPSHOT-javadoc.jar",
+          "url": "configurate-extra-kotlin-4.2.0-SNAPSHOT-javadoc.jar",
+          "size": 462482,
+          "sha512": "bb3420516498ba05c167a6524917807d89c4f3d51f12af3037a58dd475989d5a2ad97751875f28f081210e95fd20e38fb58e04812a75b47637c603979689b681",
+          "sha256": "008beab638cefe3caa95abbb0d63799df463afeee8e19c29053c9a4dbc26cc2a",
+          "sha1": "8a07c81b60776e534cfe36111fab9a6862f7a94b",
+          "md5": "7adc80b4a5da04d513c158492305aa62"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configurate-extra-kotlin-4.2.0-SNAPSHOT-sources.jar",
+          "url": "configurate-extra-kotlin-4.2.0-SNAPSHOT-sources.jar",
+          "size": 13451,
+          "sha512": "b7747c656db159cd40f65d1010e79d59b2afa3fc5d0cf88c8178e62037315889a184e8a60a11a6cf6973f2892546921909360e9c01b2dfa8c3c29428562f56a7",
+          "sha256": "142c3b55d0af422c490b141ad5339e598486db8a537dde6def2b1c0f9f00a88b",
+          "sha1": "75c2211019174ed451e8eccf71926981af946471",
+          "md5": "d4798a5e2dfd21f07a4f20e71c89fb64"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spongepowered",
+    "module": "configurate-extra-dfu2",
+    "version": "4.2.0-YAML-COMMENTED-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "datafixerupper",
+          "version": {
+            "requires": "2.0.24"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-extra-dfu2-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "url": "configurate-extra-dfu2-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "size": 7147,
+          "sha512": "7505ef35623884ad1cd73f469165db6fe66d5e4f4d3e0b4161e880b373e0c6dc9cda3f7e1c5756189eaf6bcc162a582c4587827516b1b30e2aa6bd53c0ae2680",
+          "sha256": "131a4466677c1cdf37880b3e6199c34f659b8b5e14da14ec812c382743de3751",
+          "sha1": "c783a3909c6069f0593a60895d73933573184037",
+          "md5": "368ddefee151f151e880e76275951e00"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "datafixerupper",
+          "version": {
+            "requires": "2.0.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-extra-dfu2-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "url": "configurate-extra-dfu2-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "size": 7147,
+          "sha512": "7505ef35623884ad1cd73f469165db6fe66d5e4f4d3e0b4161e880b373e0c6dc9cda3f7e1c5756189eaf6bcc162a582c4587827516b1b30e2aa6bd53c0ae2680",
+          "sha256": "131a4466677c1cdf37880b3e6199c34f659b8b5e14da14ec812c382743de3751",
+          "sha1": "c783a3909c6069f0593a60895d73933573184037",
+          "md5": "368ddefee151f151e880e76275951e00"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "datafixerupper",
+          "version": {
+            "requires": "2.0.24"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-extra-dfu2-4.2.0-YAML-COMMENTED-SNAPSHOT-javadoc.jar",
+          "url": "configurate-extra-dfu2-4.2.0-YAML-COMMENTED-SNAPSHOT-javadoc.jar",
+          "size": 84593,
+          "sha512": "400a1463b62d773dcef76cc90363c37b3c2d6f203703effe895cd7ccd4f77974002c835ad3a9af748ab6711d688f26156f5ffb1cb1ecfd088b781f926d012a84",
+          "sha256": "11cb03fbe44e62c5777b3d72db4c291993530cf04aae87c498fd9178b0b80e9d",
+          "sha1": "3c0e80d970e90b9b73c0a6a44d5825d41b10f1d5",
+          "md5": "f3f48276f6aca63fefe90b2ba28a0ad3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configurate-extra-dfu2-4.2.0-YAML-COMMENTED-SNAPSHOT-sources.jar",
+          "url": "configurate-extra-dfu2-4.2.0-YAML-COMMENTED-SNAPSHOT-sources.jar",
+          "size": 4590,
+          "sha512": "00b102830f32f79753a20c195970525767df098d621c042ad2f9b7132f153c1fd4dd4cee69c9540f2435a7ae4500668dcf548769d95ebcea41358167e48adce9",
+          "sha256": "90b4f593c46614f8b614ea57df23936449a2e5b1552dc2fc622b74d73aeb2f63",
+          "sha1": "c0001e335dab2c676871f6388750e719b1ecb98f",
+          "md5": "a71b0809d679e4b6f20382d41f308d88"
+        }
+      ]
+    }
+  ]
+}

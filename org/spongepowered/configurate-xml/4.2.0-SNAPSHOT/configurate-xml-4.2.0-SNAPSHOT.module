@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spongepowered",
+    "module": "configurate-xml",
+    "version": "4.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-xml-4.2.0-SNAPSHOT.jar",
+          "url": "configurate-xml-4.2.0-SNAPSHOT.jar",
+          "size": 14924,
+          "sha512": "3f6d00f3d464e6f63f6ec5c1232d18c443ecf0d004b314f02525108513fc3b8c5bf72482e85285c1b9577f7acbfc92eca370c58000649921b1e9302ac39bfb21",
+          "sha256": "fc153f5b399c5a4cbc4a1e1547425e95863e2decfada3cbb396b0b251ac8c6a8",
+          "sha1": "d6d2573c483146a45184aaecdebf0a24c3ded3e8",
+          "md5": "10802b6079b1879cf6cf860765f54ebf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-xml-4.2.0-SNAPSHOT.jar",
+          "url": "configurate-xml-4.2.0-SNAPSHOT.jar",
+          "size": 14924,
+          "sha512": "3f6d00f3d464e6f63f6ec5c1232d18c443ecf0d004b314f02525108513fc3b8c5bf72482e85285c1b9577f7acbfc92eca370c58000649921b1e9302ac39bfb21",
+          "sha256": "fc153f5b399c5a4cbc4a1e1547425e95863e2decfada3cbb396b0b251ac8c6a8",
+          "sha1": "d6d2573c483146a45184aaecdebf0a24c3ded3e8",
+          "md5": "10802b6079b1879cf6cf860765f54ebf"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-xml-4.2.0-SNAPSHOT-javadoc.jar",
+          "url": "configurate-xml-4.2.0-SNAPSHOT-javadoc.jar",
+          "size": 109319,
+          "sha512": "2eb414163c39775be6d7f02def3ecc9ed83e1845031623a1fff74f1bdcf32d03b76f4ef7cf55c5382afacfd4395f5ba7a4f4eb0423cc3a3c677c8d33487864a4",
+          "sha256": "146a756b7b4c62e79bbf114d2b2cc79c4a94860fc88b0f0635a7d80869ea5df0",
+          "sha1": "ab1d9a26d24e9223bfdc5432141d57e971585d96",
+          "md5": "fb89122feea266c62f76f66e68a78a10"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configurate-xml-4.2.0-SNAPSHOT-sources.jar",
+          "url": "configurate-xml-4.2.0-SNAPSHOT-sources.jar",
+          "size": 9193,
+          "sha512": "468e7f4f4c0b3302df3b1a7671bb05b102c26e1327b159a571ad5f009cdafd7b2d3d508c0c243a9b9847c90e9d9d331dfd6b46a216136526038efca0e72d40bf",
+          "sha256": "e8f9421eaaf6d1d926fa78d93247ab6f62d44f3fcbff478a7eb708b721e1979e",
+          "sha1": "4ee374d47823b4071237c0571158f59b39655789",
+          "md5": "0fd00ae4c25cb51bb29f8bdec8a8f8b0"
+        }
+      ]
+    }
+  ]
+}

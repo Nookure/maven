@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spongepowered",
+    "module": "configurate-tool",
+    "version": "4.2.0-YAML-COMMENTED-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-tool-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "url": "configurate-tool-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "size": 24739,
+          "sha512": "f4e746de2622849604f91d49be30072e60087cfda72691bd5e919332567100b45797962c9c6c31e14d9c83d69dd1c41ff7d56aef4c08bea95194fc278af4582c",
+          "sha256": "014ee7b3011354c73025add4d06ac4bf1892785a1d084ecc158fc3a9d789b1cc",
+          "sha1": "4561c8f68b6d9310e787b7dfc91090bee01252a7",
+          "md5": "e494766b8cb57a85ba828d737582f7dd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-xml",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-yaml",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-gson",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-hocon",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-extra-kotlin",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.ajalt",
+          "module": "clikt",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.fusesource.jansi",
+          "module": "jansi",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-tool-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "url": "configurate-tool-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "size": 24739,
+          "sha512": "f4e746de2622849604f91d49be30072e60087cfda72691bd5e919332567100b45797962c9c6c31e14d9c83d69dd1c41ff7d56aef4c08bea95194fc278af4582c",
+          "sha256": "014ee7b3011354c73025add4d06ac4bf1892785a1d084ecc158fc3a9d789b1cc",
+          "sha1": "4561c8f68b6d9310e787b7dfc91090bee01252a7",
+          "md5": "e494766b8cb57a85ba828d737582f7dd"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-tool-4.2.0-YAML-COMMENTED-SNAPSHOT-javadoc.jar",
+          "url": "configurate-tool-4.2.0-YAML-COMMENTED-SNAPSHOT-javadoc.jar",
+          "size": 327,
+          "sha512": "3f782186dcfd63b2ec3f03830f4c98b45d7962966d8b6989ad9c3b2e6a0c071fc9da0c553970e86caa7b9aeb8867096554f5b5a66dfa9369c1d6e787e6fd6d3e",
+          "sha256": "4580e966c5cb0c8bd97d28e9043e1a8f432ef2bb2ad06c21a6062c4d7e6d3cb2",
+          "sha1": "5dfbac40b61f9b354b9d4acbf049e0383db13918",
+          "md5": "2d4ef9259a8822e8f527b1e50c88a660"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configurate-tool-4.2.0-YAML-COMMENTED-SNAPSHOT-sources.jar",
+          "url": "configurate-tool-4.2.0-YAML-COMMENTED-SNAPSHOT-sources.jar",
+          "size": 3969,
+          "sha512": "f7e0da38211e7b1fd7dd7271df5febf25d3b082aedc8bd717efee85b0370df679b43fcdade37516ef0c67ff3c7886402e6c0d41e34b22fd7e5584bdcd8589aa1",
+          "sha256": "91bb2341abe71ed5ffadf9d8712ce8505bd39247b64c09a7d7f69195e5ae7af6",
+          "sha1": "d8799300e331c433b5134f37354b779f195b83ae",
+          "md5": "b6945ee35b75be5b644429868c07cece"
+        }
+      ]
+    }
+  ]
+}

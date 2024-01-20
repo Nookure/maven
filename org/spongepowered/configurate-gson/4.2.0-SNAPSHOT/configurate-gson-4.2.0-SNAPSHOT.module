@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spongepowered",
+    "module": "configurate-gson",
+    "version": "4.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-gson-4.2.0-SNAPSHOT.jar",
+          "url": "configurate-gson-4.2.0-SNAPSHOT.jar",
+          "size": 18336,
+          "sha512": "62ee4f63faf2f6a2c7be688daed73395f8fe2c9ffdeaea9144c6d0eb4548eb8164c2bae8afc6c00073f1f51e1247979bac1fc50dbfba4ec44c941677c8751750",
+          "sha256": "a9007c628464033bb2a47e897d0bbb636f2386e47f4953aeaacb077e4c776a75",
+          "sha1": "282f451eec5e75fa8bb7b99289494e33614694a9",
+          "md5": "a92aec1a151abd3c5d4216192593bbd6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-gson-4.2.0-SNAPSHOT.jar",
+          "url": "configurate-gson-4.2.0-SNAPSHOT.jar",
+          "size": 18336,
+          "sha512": "62ee4f63faf2f6a2c7be688daed73395f8fe2c9ffdeaea9144c6d0eb4548eb8164c2bae8afc6c00073f1f51e1247979bac1fc50dbfba4ec44c941677c8751750",
+          "sha256": "a9007c628464033bb2a47e897d0bbb636f2386e47f4953aeaacb077e4c776a75",
+          "sha1": "282f451eec5e75fa8bb7b99289494e33614694a9",
+          "md5": "a92aec1a151abd3c5d4216192593bbd6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-gson-4.2.0-SNAPSHOT-javadoc.jar",
+          "url": "configurate-gson-4.2.0-SNAPSHOT-javadoc.jar",
+          "size": 97115,
+          "sha512": "7f72fb250d0813dcb601b7f898bf526856c6ef8d08dacfab95ba528f9a561bc43131b01d0c61bebac034ad9a1cb7d418142cce349006089760b405cfebd7bded",
+          "sha256": "aa443d66bb15b6797862cca2bcf2b49ec0fd51bb839b8ed9f9c0d950d412650d",
+          "sha1": "8a8358f11fa3c0514752b4c3ca3fd5bb4b25b28e",
+          "md5": "0d6b21387d426cd9a5f331ca3b2dd076"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configurate-gson-4.2.0-SNAPSHOT-sources.jar",
+          "url": "configurate-gson-4.2.0-SNAPSHOT-sources.jar",
+          "size": 11052,
+          "sha512": "609188c3f0c46fcd7cc385c1a0f9f97c42481ee8152b099f57614bebb3d5135a2936d193dd08f89a3b3374a2743c83442d8fec53a5cbfa7626d4e890a50ca7c2",
+          "sha256": "d7957264aba0add361df34e8167fa1610e8f55c9156dc4380ee63610360dfa0b",
+          "sha1": "ad700ff4ee289061ac9794fa15849723b3b712a0",
+          "md5": "d8a3a80da6722b6a3079cbeabdb7df40"
+        }
+      ]
+    }
+  ]
+}

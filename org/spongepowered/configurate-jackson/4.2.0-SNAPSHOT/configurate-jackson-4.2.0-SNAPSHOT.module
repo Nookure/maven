@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spongepowered",
+    "module": "configurate-jackson",
+    "version": "4.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-jackson-4.2.0-SNAPSHOT.jar",
+          "url": "configurate-jackson-4.2.0-SNAPSHOT.jar",
+          "size": 14922,
+          "sha512": "e6394bd8f39506f05f593a01eae3995f4390fb86db66268e0a6993aee096c999b8ab03ca66b1042c57beaf492af733090c9febfabcdcf5867018d6454166cfeb",
+          "sha256": "d90348b2207e82608b03bd68b813bf2fef1f2852ea30391a647ce9e7dc81e275",
+          "sha1": "2196b46ba617aabac355e45a2db0518b182b20ca",
+          "md5": "6154e2299b3e91881594082a38eaea63"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.16.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-jackson-4.2.0-SNAPSHOT.jar",
+          "url": "configurate-jackson-4.2.0-SNAPSHOT.jar",
+          "size": 14922,
+          "sha512": "e6394bd8f39506f05f593a01eae3995f4390fb86db66268e0a6993aee096c999b8ab03ca66b1042c57beaf492af733090c9febfabcdcf5867018d6454166cfeb",
+          "sha256": "d90348b2207e82608b03bd68b813bf2fef1f2852ea30391a647ce9e7dc81e275",
+          "sha1": "2196b46ba617aabac355e45a2db0518b182b20ca",
+          "md5": "6154e2299b3e91881594082a38eaea63"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.16.1"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-jackson-4.2.0-SNAPSHOT-javadoc.jar",
+          "url": "configurate-jackson-4.2.0-SNAPSHOT-javadoc.jar",
+          "size": 103103,
+          "sha512": "555d2f58d19c1eec7f263510a43ff669f9ddd5dbca34a013cc101670ea8fc5494e233b56c2ea55546929d6ac58aeb02cb6144bd76e0c2f3a269003e2fd21e853",
+          "sha256": "19676e03029193ec3c35e757ec0d4d121b6b5b68811f7ba655d93d6cd7617734",
+          "sha1": "af99cf6456f2227937b1324f3bba2fd8ff26a92b",
+          "md5": "f42e776c95dfa274d2238389e04ea957"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configurate-jackson-4.2.0-SNAPSHOT-sources.jar",
+          "url": "configurate-jackson-4.2.0-SNAPSHOT-sources.jar",
+          "size": 10018,
+          "sha512": "70117be587dc7f54b6580daa05f6474eea7fd5013955ff2d0ab335bd5a49edbf357e942dbffe012b8bbb647df9b2e7610f15f099f87abc770de5e7045b1c7706",
+          "sha256": "2e290bc892710b5cbc739f58eb138953fea2cfb83639739b87492390d0aa9585",
+          "sha1": "dfdb36077e47e62d9287717bd46a5ecd066a27b0",
+          "md5": "50c9092f064587f2b6ee7ae5cdfdf2c5"
+        }
+      ]
+    }
+  ]
+}

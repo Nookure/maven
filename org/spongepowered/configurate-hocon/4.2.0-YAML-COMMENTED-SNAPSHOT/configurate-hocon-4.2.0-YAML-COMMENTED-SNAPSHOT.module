@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.spongepowered",
+    "module": "configurate-hocon",
+    "version": "4.2.0-YAML-COMMENTED-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-hocon-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "url": "configurate-hocon-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "size": 316902,
+          "sha512": "9cf4d4c48416ea080b3b5af096e6d007062d2c60d3ea1f33c8bbab6846ecc0617ef450866b17f76eabce6e11fbcfa0c83491ea508c14c461873da94ceac258eb",
+          "sha256": "0f4d6cb74dc775ba0db5ff41b3611719a8f4db9ec8fb9240bff045aa758e0e2d",
+          "sha1": "9918ac64c4aea40de4f73ebdfaf2bacbf84cd2d8",
+          "md5": "62acf46ea801f4570b0d9ea86b1c771c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-hocon-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "url": "configurate-hocon-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "size": 316902,
+          "sha512": "9cf4d4c48416ea080b3b5af096e6d007062d2c60d3ea1f33c8bbab6846ecc0617ef450866b17f76eabce6e11fbcfa0c83491ea508c14c461873da94ceac258eb",
+          "sha256": "0f4d6cb74dc775ba0db5ff41b3611719a8f4db9ec8fb9240bff045aa758e0e2d",
+          "sha1": "9918ac64c4aea40de4f73ebdfaf2bacbf84cd2d8",
+          "md5": "62acf46ea801f4570b0d9ea86b1c771c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-core",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.errorprone",
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "2.24.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "configurate-hocon-4.2.0-YAML-COMMENTED-SNAPSHOT-javadoc.jar",
+          "url": "configurate-hocon-4.2.0-YAML-COMMENTED-SNAPSHOT-javadoc.jar",
+          "size": 98896,
+          "sha512": "64f6aa5f37e2dd1a059eb24d16583dcdcf2bacc317c4e73bf2ceb7bf07496f98714b660eede03fe3d63786a8846dd584bc7e79b4c9137613a790c6a49b8babb6",
+          "sha256": "0ded6cfa59a85720ae1825b7d02d0ee9a279ff0b755c23ce7377f09683fed1c2",
+          "sha1": "cbc991c52d5cfbae05958b3927b75c12bff33042",
+          "md5": "7a6142979d1ddd3794bc2650406f6fd7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configurate-hocon-4.2.0-YAML-COMMENTED-SNAPSHOT-sources.jar",
+          "url": "configurate-hocon-4.2.0-YAML-COMMENTED-SNAPSHOT-sources.jar",
+          "size": 6914,
+          "sha512": "bace0e9ce127521115a5bf37209554e1d6c83c3f54c801d68e6ceffe8e5704be4148f7b97cf535015b2bba65a4b5969889ef4c871384dde49d3e6b27899d3f69",
+          "sha256": "a45eaef06719e7fdb5d8c37a4a4cbfaabcbdbc0d19d2b8983fa7be3c0ab6e4ef",
+          "sha1": "943e2353c3573f3fe12958d22575a344cfb286be",
+          "md5": "ccd5c0f662f36b8f67fbabb4cfeea4f1"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "configurate-hocon-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "url": "configurate-hocon-4.2.0-YAML-COMMENTED-SNAPSHOT.jar",
+          "size": 316902,
+          "sha512": "9cf4d4c48416ea080b3b5af096e6d007062d2c60d3ea1f33c8bbab6846ecc0617ef450866b17f76eabce6e11fbcfa0c83491ea508c14c461873da94ceac258eb",
+          "sha256": "0f4d6cb74dc775ba0db5ff41b3611719a8f4db9ec8fb9240bff045aa758e0e2d",
+          "sha1": "9918ac64c4aea40de4f73ebdfaf2bacbf84cd2d8",
+          "md5": "62acf46ea801f4570b0d9ea86b1c771c"
+        }
+      ]
+    }
+  ]
+}
