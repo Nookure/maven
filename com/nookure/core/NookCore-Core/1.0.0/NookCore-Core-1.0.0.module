@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core",
+    "module": "NookCore-Core",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "NookCore-Core-1.0.0.jar",
+          "url": "NookCore-Core-1.0.0.jar",
+          "size": 1600,
+          "sha512": "34f5df3a4f106acfdef9b7c3bc0e5c5c30941f062266d4cb988bc3a57dcf80ff95e24f63646c136e65278701428e027d4c776cf03bb82d1e07a5d28a3c90a1f0",
+          "sha256": "9872bd3f63441a19db8fe8ef0a4dd92cbf00fb908ee8c8a3e51fa27569ba9051",
+          "sha1": "74a42d6693954571bcc4372186ba6accdb660581",
+          "md5": "dfdcd370b9f811b9b1cf5a04de5db3e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Core-1.0.0.jar",
+          "url": "NookCore-Core-1.0.0.jar",
+          "size": 1600,
+          "sha512": "34f5df3a4f106acfdef9b7c3bc0e5c5c30941f062266d4cb988bc3a57dcf80ff95e24f63646c136e65278701428e027d4c776cf03bb82d1e07a5d28a3c90a1f0",
+          "sha256": "9872bd3f63441a19db8fe8ef0a4dd92cbf00fb908ee8c8a3e51fa27569ba9051",
+          "sha1": "74a42d6693954571bcc4372186ba6accdb660581",
+          "md5": "dfdcd370b9f811b9b1cf5a04de5db3e7"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Core-1.0.0-all.jar",
+          "url": "NookCore-Core-1.0.0-all.jar",
+          "size": 1600,
+          "sha512": "04b204d294e3c2b6c96cf0d72dcc81c8c196cd42d43120e2f1825029b66eb70fee13266f30416aa343665d4e6c4e2a0816c994035b681012459b579deb8cdc5b",
+          "sha256": "90f75dab9dac0803e8376eb099f1335f9cba0a51b167c2bcfa7e11974b13c735",
+          "sha1": "34af2c8db930a7f2a8a6336b61854fcf740172ec",
+          "md5": "2a85091aea8770f95258fb2114a6cfc1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Core-1.0.0-javadoc.jar",
+          "url": "NookCore-Core-1.0.0-javadoc.jar",
+          "size": 73112,
+          "sha512": "be757fcc47024f2d3bfeb415659d6413f7724a0b7de37e8a0d8f20396ba168a5ee81df302aef23ecf71c5b7fa91124e89d27da3bf4ca90b3095607d113b3d13a",
+          "sha256": "c10a61be0cd4d9056ed4833667db96d7a14094ba146516060db5123f8815e195",
+          "sha1": "7e33ea3fbe2ae3ee203ef19dbc334725ae794ac8",
+          "md5": "281f96861080393c82343bc7f0d1b00a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Core-1.0.0-sources.jar",
+          "url": "NookCore-Core-1.0.0-sources.jar",
+          "size": 1595,
+          "sha512": "c07a987e5d268a9848e40544c9295abcebd3fb43bfaf5937b9f6016d842debc283db2052a7be4fbb376b6eea8feabf073d3f6c43650e70db2a601f8a655822a4",
+          "sha256": "6e45f69c95d58291a6a8558bd004c81d476d1a2c2ad73454f83d54299f474ebb",
+          "sha1": "e9e6c27971e9a45399d11cc4e7c17b39df664486",
+          "md5": "47f261b28592b855c7399c6af47ca063"
+        }
+      ]
+    }
+  ]
+}

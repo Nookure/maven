@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core",
+    "module": "NookCore-Database",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jooq",
+          "module": "jooq",
+          "version": {
+            "requires": "3.19.5"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "4.0.3"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Logger",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Database-1.0.0.jar",
+          "url": "NookCore-Database-1.0.0.jar",
+          "size": 6664,
+          "sha512": "caaa330d25b0d4a6adaf32aa4d98ae28f5246a5784ea567a4bf8953288d30a730af95b0da90333689d173101a3c96373c92bf0e4be9bb247124e94de71f9dab7",
+          "sha256": "cee84be32e33e523a37a6d8e662c0c96ed749a7762e23856366cbb17d59b69be",
+          "sha1": "c0c3670758620870aed4aaa7f4df94e2fadf459b",
+          "md5": "df572e1d26bf0cc5741968b5aa103e7e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jooq",
+          "module": "jooq",
+          "version": {
+            "requires": "3.19.5"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "4.0.3"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Logger",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Database-1.0.0.jar",
+          "url": "NookCore-Database-1.0.0.jar",
+          "size": 6664,
+          "sha512": "caaa330d25b0d4a6adaf32aa4d98ae28f5246a5784ea567a4bf8953288d30a730af95b0da90333689d173101a3c96373c92bf0e4be9bb247124e94de71f9dab7",
+          "sha256": "cee84be32e33e523a37a6d8e662c0c96ed749a7762e23856366cbb17d59b69be",
+          "sha1": "c0c3670758620870aed4aaa7f4df94e2fadf459b",
+          "md5": "df572e1d26bf0cc5741968b5aa103e7e"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Database-1.0.0-all.jar",
+          "url": "NookCore-Database-1.0.0-all.jar",
+          "size": 5063159,
+          "sha512": "0f243152287c0c2edbf3ad46fd8da7e37413f43f19bbb0a4d09e4cb54a920c60cac563db4a6a6b171ae66315a5c82aa8d89f6ce36d016164854918f2714efbcd",
+          "sha256": "16824d2bdf8c3b29b1685a481ac9d165a37a506297b28ed06b0ef27ec9bec90d",
+          "sha1": "2d66f5be0ef90eb98effa8ee95069c3a4cf327f9",
+          "md5": "f6dc2833f5fa99629b208780e5e6baaa"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Database-1.0.0-javadoc.jar",
+          "url": "NookCore-Database-1.0.0-javadoc.jar",
+          "size": 88768,
+          "sha512": "2104abc0aeac0cb858e47de5d537de6766534a6ed087ddbd8a3ab67eded20b03221284c501f6ab31e5a0d7d28722b6405cfc4ed82b44d686743d9da664176339",
+          "sha256": "c4cce1e95b77c8fc079ae36afc5cadaafb63132488ffdf8a84e5cb74ca00037b",
+          "sha1": "985ab83142c36a3eef5f1d95d9d4f32e2cc1b506",
+          "md5": "4380f1b8ddf013db7dd6d596e330300e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Database-1.0.0-sources.jar",
+          "url": "NookCore-Database-1.0.0-sources.jar",
+          "size": 4282,
+          "sha512": "6b7d76f2c2409928865e6c5f7136ac3bf4bede81769542ae685aaff7a965b3ad210d4800809ecd82adc83b072fe17fcd260b1e97ae57d44984e772d79cfb4219",
+          "sha256": "daba1f6b6560bd46d66e731015b72b9932ed685762e44d2edc7da5d130305f4a",
+          "sha1": "da44babb0885d32be61fbf057a3252d296ae34c2",
+          "md5": "bbdfbce75f1ef0a3c8f02cfa94621101"
+        }
+      ]
+    }
+  ]
+}

@@ -3,44 +3,44 @@
   <groupId>com.nookure.core</groupId>
   <artifactId>NookCore-Core</artifactId>
   <versioning>
-    <lastUpdated>20240308200103</lastUpdated>
+    <lastUpdated>20240308205140</lastUpdated>
     <snapshot>
-      <timestamp>20240308.200103</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20240308.205140</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0-20240308.200103-1</value>
-        <updated>20240308200103</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.0-20240308.200103-1</value>
-        <updated>20240308200103</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0-20240308.200103-1</value>
-        <updated>20240308200103</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.0-20240308.200103-1</value>
-        <updated>20240308200103</updated>
+        <value>1.0-20240308.205140-3</value>
+        <updated>20240308205140</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0-20240308.205140-3</value>
+        <updated>20240308205140</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0-20240308.200103-1</value>
-        <updated>20240308200103</updated>
+        <value>1.0-20240308.205140-3</value>
+        <updated>20240308205140</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>all</classifier>
         <extension>jar</extension>
-        <value>1.0-20240308.200103-1</value>
-        <updated>20240308200103</updated>
+        <value>1.0-20240308.205140-3</value>
+        <updated>20240308205140</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0-20240308.205140-3</value>
+        <updated>20240308205140</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20240308.205140-3</value>
+        <updated>20240308205140</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
