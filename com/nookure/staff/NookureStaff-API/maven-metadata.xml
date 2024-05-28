@@ -3,11 +3,12 @@
   <groupId>com.nookure.staff</groupId>
   <artifactId>NookureStaff-API</artifactId>
   <versioning>
-    <latest>feature-addons-d7e1ff4</latest>
-    <release>feature-addons-d7e1ff4</release>
+    <latest>1.2.0-9557f4a</latest>
+    <release>1.2.0-9557f4a</release>
     <versions>
       <version>feature-addons-d7e1ff4</version>
+      <version>1.2.0-9557f4a</version>
     </versions>
-    <lastUpdated>20240501130843</lastUpdated>
+    <lastUpdated>20240528141754</lastUpdated>
   </versioning>
 </metadata>
