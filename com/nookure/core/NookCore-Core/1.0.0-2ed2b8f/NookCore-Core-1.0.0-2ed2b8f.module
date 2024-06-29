@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core",
+    "module": "NookCore-Core",
+    "version": "1.0.0-2ed2b8f",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "NookCore-Core-1.0.0-2ed2b8f.jar",
+          "url": "NookCore-Core-1.0.0-2ed2b8f.jar",
+          "size": 1600,
+          "sha512": "b2f29918fbdd98ebe5afd58159bfe9b57ac89fe46471977326d8438115829b72eacd33611d02a0e46000a68dd01d986e08208f377ba3376a84f8254c5fd59b00",
+          "sha256": "23291c4b6c63e351f2d66811077b425daa88cda65644f8639753bed3523b87eb",
+          "sha1": "2facf3156bc908f79a4409765fe77cbcbb19e56c",
+          "md5": "1d9799670f4a55ab43b72b9db8b9bdfe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Core-1.0.0-2ed2b8f.jar",
+          "url": "NookCore-Core-1.0.0-2ed2b8f.jar",
+          "size": 1600,
+          "sha512": "b2f29918fbdd98ebe5afd58159bfe9b57ac89fe46471977326d8438115829b72eacd33611d02a0e46000a68dd01d986e08208f377ba3376a84f8254c5fd59b00",
+          "sha256": "23291c4b6c63e351f2d66811077b425daa88cda65644f8639753bed3523b87eb",
+          "sha1": "2facf3156bc908f79a4409765fe77cbcbb19e56c",
+          "md5": "1d9799670f4a55ab43b72b9db8b9bdfe"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Core-1.0.0-2ed2b8f-all.jar",
+          "url": "NookCore-Core-1.0.0-2ed2b8f-all.jar",
+          "size": 1600,
+          "sha512": "631cb6c69385bf66f3dd27263cf77c918be73f309ffe4be056d2bf6306b0ab7796b7f887eebbe97aba2fcb1a9433f270fd53b8f4a469be102f4bc7641080e038",
+          "sha256": "5bd52c939643398876540b7dbe57bc38491c25690b07e3d6cca328722d666ae8",
+          "sha1": "1069e374e5e1025143ebcd20c29e387da8ef944b",
+          "md5": "6021a40d4f98a6b629ad406dc6b07fff"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Core-1.0.0-2ed2b8f-javadoc.jar",
+          "url": "NookCore-Core-1.0.0-2ed2b8f-javadoc.jar",
+          "size": 81799,
+          "sha512": "f6d48eb7ce184bd406718c37f91ff96e9c8b031624148b0e665d9f4f9b1a87c27b98637f20f9732c9594af622cf549a8edaeb562c81f5e9e28a45033db4b77f7",
+          "sha256": "1e31054566d4602335668ee4aaba3236e6f7c231481b03157f98f4291688e021",
+          "sha1": "3130cb7c4ac9c48a98dd7717ad615be5f685f1cf",
+          "md5": "d32ac1da79d29af8c152f6238d56e009"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Core-1.0.0-2ed2b8f-sources.jar",
+          "url": "NookCore-Core-1.0.0-2ed2b8f-sources.jar",
+          "size": 1582,
+          "sha512": "d36ba7111a05151b15bee97e2c56b47ede0b79bb4b86f00408d176a17bb4c4084a6ecd034d4b9e968556cea8dfb3c494c676f57fe9920158b2ca543cef70f94f",
+          "sha256": "e9e66ccd9d9794fea7f949309ef225edee44f3da1ae8c87f72b3dc9091784d96",
+          "sha1": "a9dd38590ba4d56777355d1cfee8a3868c2e0807",
+          "md5": "881f3dae1eb41cfe5bf3e5f913cb658d"
+        }
+      ]
+    }
+  ]
+}
