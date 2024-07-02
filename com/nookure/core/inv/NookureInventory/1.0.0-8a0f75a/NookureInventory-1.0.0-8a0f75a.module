@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core.inv",
+    "module": "NookureInventory",
+    "version": "1.0.0-8a0f75a",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.pebbletemplates",
+          "module": "pebble",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookureInventory-1.0.0-8a0f75a.jar",
+          "url": "NookureInventory-1.0.0-8a0f75a.jar",
+          "size": 35616,
+          "sha512": "e445cd128a8074787f7b8ff015e8ee2bb7a38bd85616ef61526e573a0e140779d2bbcda2ac956b6c7ccc657fc2c90cccf4e8a791f58c9a7098539cb7d6fbe1d0",
+          "sha256": "58d48010941d460e96569aeb6820ee3c3cc0f61ec4177f1e01c050a8a6d2221a",
+          "sha1": "440308f1bd90f1e64937b3d043390354103ff614",
+          "md5": "8a5417ebe132e82c68eb9a547c2abb48"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.pebbletemplates",
+          "module": "pebble",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookureInventory-1.0.0-8a0f75a.jar",
+          "url": "NookureInventory-1.0.0-8a0f75a.jar",
+          "size": 35616,
+          "sha512": "e445cd128a8074787f7b8ff015e8ee2bb7a38bd85616ef61526e573a0e140779d2bbcda2ac956b6c7ccc657fc2c90cccf4e8a791f58c9a7098539cb7d6fbe1d0",
+          "sha256": "58d48010941d460e96569aeb6820ee3c3cc0f61ec4177f1e01c050a8a6d2221a",
+          "sha1": "440308f1bd90f1e64937b3d043390354103ff614",
+          "md5": "8a5417ebe132e82c68eb9a547c2abb48"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookureInventory-1.0.0-8a0f75a-all.jar",
+          "url": "NookureInventory-1.0.0-8a0f75a-all.jar",
+          "size": 3068926,
+          "sha512": "781186267d1172d06d612677da84451b06f6687745cfb7b270fc0332d9dca8a7b6c621fe5f6421c9f6e247b97188f2c188c73ed33be06bd3357c50660966f5ca",
+          "sha256": "19eb29f1be26bed3f73a21f007ed0c7ceaedb15d04144a42e8906a762d6f7814",
+          "sha1": "c56a7bda882b0d772e1a9859e252675803c8adcc",
+          "md5": "7b920fab2c1e45e0c89d609c7f4ef16f"
+        }
+      ]
+    }
+  ]
+}
