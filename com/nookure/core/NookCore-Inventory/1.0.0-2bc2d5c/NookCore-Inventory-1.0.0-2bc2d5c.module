@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core",
+    "module": "NookCore-Inventory",
+    "version": "1.0.0-2bc2d5c",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.pebbletemplates",
+          "module": "pebble",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Inventory-1.0.0-2bc2d5c.jar",
+          "url": "NookCore-Inventory-1.0.0-2bc2d5c.jar",
+          "size": 47985,
+          "sha512": "e0344372e2eb85c2d832cc6a789ec08c9b8894cc68a1391f0d129bc71cfba5e58f30c09f284414db95ada891823348a7f270ec66a4d831561456f117bcbeafbb",
+          "sha256": "2976e27a04c32d66cc55813c02d31c861e491aacef3db6b172a1c71e62f26627",
+          "sha1": "60aa864199ed2aade68b348445dccd54b14d5869",
+          "md5": "193c9ea4aedc93953d4294b34022d390"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.pebbletemplates",
+          "module": "pebble",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Inventory-1.0.0-2bc2d5c.jar",
+          "url": "NookCore-Inventory-1.0.0-2bc2d5c.jar",
+          "size": 47985,
+          "sha512": "e0344372e2eb85c2d832cc6a789ec08c9b8894cc68a1391f0d129bc71cfba5e58f30c09f284414db95ada891823348a7f270ec66a4d831561456f117bcbeafbb",
+          "sha256": "2976e27a04c32d66cc55813c02d31c861e491aacef3db6b172a1c71e62f26627",
+          "sha1": "60aa864199ed2aade68b348445dccd54b14d5869",
+          "md5": "193c9ea4aedc93953d4294b34022d390"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Inventory-1.0.0-2bc2d5c-all.jar",
+          "url": "NookCore-Inventory-1.0.0-2bc2d5c-all.jar",
+          "size": 3081295,
+          "sha512": "b38eba66de11379e8584f9e720bb0bbbb01adb058140bff57612a3e697d58730270680a46bcd02e0f02e1b944909a9c33238267d4b9603baca6fff73b636cabc",
+          "sha256": "546406bbbb4aa21cef6a24cc3a42ee269c55c84041b7603fbb912edee4f9cb7a",
+          "sha1": "163f865c8cb7c0165b1e4ebcb29664f067320cd2",
+          "md5": "5f2c04c06b3990f26081d4a5cb400c21"
+        }
+      ]
+    }
+  ]
+}
