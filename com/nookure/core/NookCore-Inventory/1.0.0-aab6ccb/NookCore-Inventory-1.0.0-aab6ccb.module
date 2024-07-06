@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core",
+    "module": "NookCore-Inventory",
+    "version": "1.0.0-aab6ccb",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.pebbletemplates",
+          "module": "pebble",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Inventory-1.0.0-aab6ccb.jar",
+          "url": "NookCore-Inventory-1.0.0-aab6ccb.jar",
+          "size": 54228,
+          "sha512": "ccab8243dd1853479db7e89babc3bf65ce72df102aa28d106854c7cbb13be63641e07d1e9ea97461a8a38029df9eeabbd8bfd160cc26be5bbab5df024a5e0482",
+          "sha256": "f4bd0fcccd6c25f8b1a11abc3f31f03f7cbc7046e3621c9787c6b4a0cca07739",
+          "sha1": "5b317ce6af05f82392a90b1b34940810c1d01a6b",
+          "md5": "feb0f3ad7f3d5a61b97dfbb35c733af4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.pebbletemplates",
+          "module": "pebble",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.5"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Inventory-1.0.0-aab6ccb.jar",
+          "url": "NookCore-Inventory-1.0.0-aab6ccb.jar",
+          "size": 54228,
+          "sha512": "ccab8243dd1853479db7e89babc3bf65ce72df102aa28d106854c7cbb13be63641e07d1e9ea97461a8a38029df9eeabbd8bfd160cc26be5bbab5df024a5e0482",
+          "sha256": "f4bd0fcccd6c25f8b1a11abc3f31f03f7cbc7046e3621c9787c6b4a0cca07739",
+          "sha1": "5b317ce6af05f82392a90b1b34940810c1d01a6b",
+          "md5": "feb0f3ad7f3d5a61b97dfbb35c733af4"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Inventory-1.0.0-aab6ccb-all.jar",
+          "url": "NookCore-Inventory-1.0.0-aab6ccb-all.jar",
+          "size": 3087538,
+          "sha512": "8f26228b10ce164227352ce19611fe0a48b8e4caaa0e720f416fa05b961c477b8034b322dde50fd4d3c549989fbbccf80f29a511f79dad9a50303632ba6ecba1",
+          "sha256": "9b319a80e1240f1d7c16b3c05de9d0e737f3b1c5b34e6480d3fcecd89b5ef1e9",
+          "sha1": "1496f96f7b169c5c2d393750d1483dd40493dc85",
+          "md5": "56fe1987c6481cb6bd46ce23f5c85db3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Inventory-1.0.0-aab6ccb-javadoc.jar",
+          "url": "NookCore-Inventory-1.0.0-aab6ccb-javadoc.jar",
+          "size": 238852,
+          "sha512": "970cf40f2e22b487229fc8b081a26ff220a94a532379c262588db96f694ba4ef9763497cbc83db588f1030803c7fc35de748cd8e1ecc632b447695df3439b0b5",
+          "sha256": "0424282194262e6ac178cc7d57a11e33a114d1d08c0ee81517b0b819767af65c",
+          "sha1": "5b26f4fd9a4dc903adaf4402c595a4b443f76fd3",
+          "md5": "2d2d2a76b2a1cbde801b509843eb3306"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Inventory-1.0.0-aab6ccb-sources.jar",
+          "url": "NookCore-Inventory-1.0.0-aab6ccb-sources.jar",
+          "size": 29628,
+          "sha512": "4c5c02f6ca5381e253118e736ac826518f158595a1e8b28029817efcd7f29eb54b55b4ca61d6288f2d3f317cb13b4ba04b25027fc78bf125e02e767f009a47dc",
+          "sha256": "b03492e8732f8e3084c6db5c5ae2b03ffca9aba53c2a78c7b1c78a03e2481c4c",
+          "sha1": "de5b2c5abb5b290c4c1aa7e3b1386ab80619c610",
+          "md5": "36565ddb3498bdc0172edcfb2607a693"
+        }
+      ]
+    }
+  ]
+}

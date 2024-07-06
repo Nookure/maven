@@ -3,11 +3,11 @@
   <groupId>com.nookure.core</groupId>
   <artifactId>NookCore-Inventory</artifactId>
   <versioning>
-    <latest>1.0.0-0969f8a</latest>
-    <release>1.0.0-0969f8a</release>
+    <latest>1.0.0-aab6ccb</latest>
+    <release>1.0.0-aab6ccb</release>
     <versions>
-      <version>1.0.0-0969f8a</version>
+      <version>1.0.0-aab6ccb</version>
     </versions>
-    <lastUpdated>20240705230626</lastUpdated>
+    <lastUpdated>20240706153158</lastUpdated>
   </versioning>
 </metadata>
