@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core",
+    "module": "NookCore-Player",
+    "version": "1.0.0-05e5c74",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "NookCore-Player-1.0.0-05e5c74.jar",
+          "url": "NookCore-Player-1.0.0-05e5c74.jar",
+          "size": 4162,
+          "sha512": "1573cac9d8e3424923f42abcee07c689b2ea0a093498b130b7a2898b1871b96eb40122e408fc49431e950f9ff30a39626f970b84100482022c47f80bb256761f",
+          "sha256": "ac5775e221a15a46494dc0cd09bdafc6e4815eb58f12fc4c032bedbde213762f",
+          "sha1": "8ac01c0fe6fbe8260213a5fc2a24810b626bceb4",
+          "md5": "0d9deba66c3b495ff7678a26f89e5b1a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Player-1.0.0-05e5c74.jar",
+          "url": "NookCore-Player-1.0.0-05e5c74.jar",
+          "size": 4162,
+          "sha512": "1573cac9d8e3424923f42abcee07c689b2ea0a093498b130b7a2898b1871b96eb40122e408fc49431e950f9ff30a39626f970b84100482022c47f80bb256761f",
+          "sha256": "ac5775e221a15a46494dc0cd09bdafc6e4815eb58f12fc4c032bedbde213762f",
+          "sha1": "8ac01c0fe6fbe8260213a5fc2a24810b626bceb4",
+          "md5": "0d9deba66c3b495ff7678a26f89e5b1a"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Player-1.0.0-05e5c74-all.jar",
+          "url": "NookCore-Player-1.0.0-05e5c74-all.jar",
+          "size": 4162,
+          "sha512": "084b4087a605d26563cc8476aa5a5affaea5de987b86acc70e666caaf11ebd3aa0eb7213c814816681a6b5d80350157120cf5331a79b2a7bfda78737edfe1683",
+          "sha256": "7a79cc73aec62a986b56a385fa7c6a494037ce7cad758678b35631dc5c2d16d9",
+          "sha1": "0e3a87e683a2c3ac6bef34e5c8b37e53f84b5ba7",
+          "md5": "fe41f0097fec786aab6af3325bcdd6e6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Player-1.0.0-05e5c74-javadoc.jar",
+          "url": "NookCore-Player-1.0.0-05e5c74-javadoc.jar",
+          "size": 95066,
+          "sha512": "5c2b67999dd0a63ee5931c18bdeca8487be167e4bb398a75036b88107d23d870fef67ef5c2b9598570456ebf534da650625697e021b6b2f2b02f246086dc916e",
+          "sha256": "38b187011784f5fe1fa2d6d46e836846e78a4754fa6121c3248f78d314479799",
+          "sha1": "c868ed9c0e1b33b2d8d4f6356c3661b79be182c6",
+          "md5": "c46af2dcdfdb67f680d4fdfe40ca9f05"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Player-1.0.0-05e5c74-sources.jar",
+          "url": "NookCore-Player-1.0.0-05e5c74-sources.jar",
+          "size": 3206,
+          "sha512": "cee2c08fbd660fbc6e70843408ec8b1244aa9c6f280515e07f48a92149a2953bfd4ec8431315feb04bf567d900ec968661c44ee5b68c594dddd7bf1d4aaa81d8",
+          "sha256": "3cb7bb123cdbf820782b9779fa4ee3510e4531ca7301a335d61a49521b541c5a",
+          "sha1": "5f7e22a4e2d8b42308bad00adbcee907cf038135",
+          "md5": "115bd5521dcfd099be37deaacf232d61"
+        }
+      ]
+    }
+  ]
+}
