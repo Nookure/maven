@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core",
+    "module": "NookCore-Messenger",
+    "version": "1.1.0-0daa3cd",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Core",
+          "version": {
+            "requires": "1.1.0-0daa3cd"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Event",
+          "version": {
+            "requires": "1.1.0-0daa3cd"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Player",
+          "version": {
+            "requires": "1.1.0-0daa3cd"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Messenger-1.1.0-0daa3cd.jar",
+          "url": "NookCore-Messenger-1.1.0-0daa3cd.jar",
+          "size": 2300,
+          "sha512": "9a1c2d9b75b585b3e518a3348997ece9dbd8261e99c8b1f5dc1a20e0d6efa80b9c8d5af883320371e2a1bbc5352e10ced6588172cf9cb2740ad65edd09aa3ce1",
+          "sha256": "1e86ec2d9782ea569c4ee0973388616e187a640ddf98df65550e6d65d21162b7",
+          "sha1": "327435158ea740e4de6d22921ddf6cd0dac72b73",
+          "md5": "e6791d3610752a4a9e9b957049b48325"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Core",
+          "version": {
+            "requires": "1.1.0-0daa3cd"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Event",
+          "version": {
+            "requires": "1.1.0-0daa3cd"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Player",
+          "version": {
+            "requires": "1.1.0-0daa3cd"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Messenger-1.1.0-0daa3cd.jar",
+          "url": "NookCore-Messenger-1.1.0-0daa3cd.jar",
+          "size": 2300,
+          "sha512": "9a1c2d9b75b585b3e518a3348997ece9dbd8261e99c8b1f5dc1a20e0d6efa80b9c8d5af883320371e2a1bbc5352e10ced6588172cf9cb2740ad65edd09aa3ce1",
+          "sha256": "1e86ec2d9782ea569c4ee0973388616e187a640ddf98df65550e6d65d21162b7",
+          "sha1": "327435158ea740e4de6d22921ddf6cd0dac72b73",
+          "md5": "e6791d3610752a4a9e9b957049b48325"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Messenger-1.1.0-0daa3cd-all.jar",
+          "url": "NookCore-Messenger-1.1.0-0daa3cd-all.jar",
+          "size": 19428,
+          "sha512": "f70c6782d99923740ea98d479b4b837f6988d6307bb825308f7ea4c1881a3cf0fb95595f1a125af024eb0babc4f856c896ee90f32a580d1bb49efa5b68d02234",
+          "sha256": "fa406d35dc793ecd3d493599e4c5f768363acb3224bb7382a3b189473cea56a3",
+          "sha1": "ac9eec8035f6c70729400851318258a40365cbf9",
+          "md5": "6906f17af3e3060d84337f67723553eb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Messenger-1.1.0-0daa3cd-javadoc.jar",
+          "url": "NookCore-Messenger-1.1.0-0daa3cd-javadoc.jar",
+          "size": 82169,
+          "sha512": "901a8bd158c205f2395d333d97704aec4d54a5cf3b41b6d3ea8a021c514e675b5292b8ee9f1218dcd156ad041c74add7f94211482b14888f34f3ccbc46f482f7",
+          "sha256": "7cedcf139481c0ec1af5b11b8a8122b32be67239be1c7cb8ded5bdf1b381061b",
+          "sha1": "88e83d877b7fb54a6e864316db6a462a66565012",
+          "md5": "51f598b7a92d2554be8d9afe16886913"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Messenger-1.1.0-0daa3cd-sources.jar",
+          "url": "NookCore-Messenger-1.1.0-0daa3cd-sources.jar",
+          "size": 1575,
+          "sha512": "d149fb433d09d764b4e5eb648f39cc19f2bcd079933751646b7ef3add0fa2a1f2176d3303dfd5480c0f9e999275d4138301aca21257693238694c2dd9987bfdf",
+          "sha256": "1a35d5c3bc66e0b4913fb9e1a7527c31bff56c456cd8a2c50e2e5b67a55ea240",
+          "sha1": "f21a9c371e3e7a403bf898804db1b6e41f816aee",
+          "md5": "4fa5bb35e1dbaed35c28676ef626f535"
+        }
+      ]
+    }
+  ]
+}
