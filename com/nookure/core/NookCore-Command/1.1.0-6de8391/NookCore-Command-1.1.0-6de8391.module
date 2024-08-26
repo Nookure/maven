@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core",
+    "module": "NookCore-Command",
+    "version": "1.1.0-6de8391",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Player",
+          "version": {
+            "requires": "1.1.0-6de8391"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Core",
+          "version": {
+            "requires": "1.1.0-6de8391"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Logger",
+          "version": {
+            "requires": "1.1.0-6de8391"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Command-1.1.0-6de8391.jar",
+          "url": "NookCore-Command-1.1.0-6de8391.jar",
+          "size": 15968,
+          "sha512": "730a239828dc09da56dca959419b52160e515706c71ba78f096561f8a97ec86b0469f7819c9c5bad18aecc137c8c9e7c9145b9bfb9d2b54cc857c831415836a8",
+          "sha256": "2c60181314710a75a07782abbebeec29c8b7cd09ef2f9b7036c5c199cf492bfc",
+          "sha1": "f0886bf4aef3eaadb2039893f6e5fb262771ed32",
+          "md5": "a73036d0542cab2239444f6b8a16c686"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Player",
+          "version": {
+            "requires": "1.1.0-6de8391"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Core",
+          "version": {
+            "requires": "1.1.0-6de8391"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Logger",
+          "version": {
+            "requires": "1.1.0-6de8391"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Command-1.1.0-6de8391.jar",
+          "url": "NookCore-Command-1.1.0-6de8391.jar",
+          "size": 15968,
+          "sha512": "730a239828dc09da56dca959419b52160e515706c71ba78f096561f8a97ec86b0469f7819c9c5bad18aecc137c8c9e7c9145b9bfb9d2b54cc857c831415836a8",
+          "sha256": "2c60181314710a75a07782abbebeec29c8b7cd09ef2f9b7036c5c199cf492bfc",
+          "sha1": "f0886bf4aef3eaadb2039893f6e5fb262771ed32",
+          "md5": "a73036d0542cab2239444f6b8a16c686"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Command-1.1.0-6de8391-all.jar",
+          "url": "NookCore-Command-1.1.0-6de8391-all.jar",
+          "size": 25317,
+          "sha512": "767334d2a7c1fc3b9ea46af4eba18df9928dcaa638e323f96329a128f773a72c35477213e41851e0fe6d440c607d420b6f9f6d857b7c01333c6a9d9a324b08ae",
+          "sha256": "6bf650428cf12a0bc600b931803658e656b16557baa3bd599f3a05fdfb8a536c",
+          "sha1": "7efdefc69af30808cb093434e7e17adfc30aadc4",
+          "md5": "a3022c5f67b65258954b3ca434219042"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Command-1.1.0-6de8391-javadoc.jar",
+          "url": "NookCore-Command-1.1.0-6de8391-javadoc.jar",
+          "size": 119778,
+          "sha512": "689cabf54700b1034f879dc3e4229ca2ddc15766888f4ddf20455e3d230d4a56410cf9bc6da8dcd810f36fe506e7dec222532eb7e722c56cb45a9c530440c413",
+          "sha256": "3b8ccaa829c1c0e9c2a6cde4da349bf1e411834c22525baf29c3a5f365b1aaa1",
+          "sha1": "7371041fa39281c9ec64a97fd355a1c0e7aa63c3",
+          "md5": "58cb8f5a503e70722c8ea09bf4e95531"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Command-1.1.0-6de8391-sources.jar",
+          "url": "NookCore-Command-1.1.0-6de8391-sources.jar",
+          "size": 8558,
+          "sha512": "d02877d9661943acb7ccff820f41a3edbbcf01c92974e8d09745b8581335b9ac9ddd41d455739cc5c3b013b029abd32fb6cff16672c260bb27edc791e17258a7",
+          "sha256": "310b7d944188da3f863d9b94bbbca910aa25abd8e21ff7696883df406adfacd9",
+          "sha1": "8b337266c66bcf22cb88c9d5c180a29a2e4a395b",
+          "md5": "ce1e21e6e4c9206070a6caae045e0c82"
+        }
+      ]
+    }
+  ]
+}

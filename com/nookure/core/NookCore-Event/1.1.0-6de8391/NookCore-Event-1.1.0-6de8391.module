@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core",
+    "module": "NookCore-Event",
+    "version": "1.1.0-6de8391",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Logger",
+          "version": {
+            "requires": "1.1.0-6de8391"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Core",
+          "version": {
+            "requires": "1.1.0-6de8391"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Event-1.1.0-6de8391.jar",
+          "url": "NookCore-Event-1.1.0-6de8391.jar",
+          "size": 8340,
+          "sha512": "b9aa2ab03abc28b215912a6d96f9616054d3be4fd696e3006fffb1344c52d89142e6c7cb608f834444609349078a51109950cb33258fd0d26cf48955905da496",
+          "sha256": "ea31fa6097d45d71c0ec45a6bc598a4cb0e23b77c0d3fdde85599cfecd7d77bb",
+          "sha1": "91b303f5551d247d4f8a35f5ca945195293efdd2",
+          "md5": "287864822b28da382907884e6e668726"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Logger",
+          "version": {
+            "requires": "1.1.0-6de8391"
+          }
+        },
+        {
+          "group": "com.nookure.core",
+          "module": "NookCore-Core",
+          "version": {
+            "requires": "1.1.0-6de8391"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookCore-Event-1.1.0-6de8391.jar",
+          "url": "NookCore-Event-1.1.0-6de8391.jar",
+          "size": 8340,
+          "sha512": "b9aa2ab03abc28b215912a6d96f9616054d3be4fd696e3006fffb1344c52d89142e6c7cb608f834444609349078a51109950cb33258fd0d26cf48955905da496",
+          "sha256": "ea31fa6097d45d71c0ec45a6bc598a4cb0e23b77c0d3fdde85599cfecd7d77bb",
+          "sha1": "91b303f5551d247d4f8a35f5ca945195293efdd2",
+          "md5": "287864822b28da382907884e6e668726"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Event-1.1.0-6de8391-all.jar",
+          "url": "NookCore-Event-1.1.0-6de8391-all.jar",
+          "size": 13824,
+          "sha512": "0b767ebdecdf9664bcf114fab9150fe1a12d8ef0044ee7318ce5c07953f2eaae51b146cabe234f5f3130a90d0826f8f7c025b9748176033e92f71aee984a6fd2",
+          "sha256": "e3d0ed0f8d4a243448ac94e6ff82d885b1047ff9cc78750609910f5a2ab57bd7",
+          "sha1": "a61eee1cf8ebfafcb1e40233a99a68d174f9ac7c",
+          "md5": "386f288f550ca3fdbdd2b648a8616ce7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Event-1.1.0-6de8391-javadoc.jar",
+          "url": "NookCore-Event-1.1.0-6de8391-javadoc.jar",
+          "size": 101793,
+          "sha512": "203c30038416e61aa73f102f9406c984646306b923cfff0911d7c30dbc15c2c561751ca28c9019e5ac3d8f44acd516074e8d7eb7849ea652803416ef9bfc13ae",
+          "sha256": "e1c19bae5521b9ef7820d7b380715f17c77d75dc5732b0f9f28c87a591beda30",
+          "sha1": "284909ccfdd18a72e2b9a269684dc745660db695",
+          "md5": "b87ea9945f4959815c26c9c068563f5b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Event-1.1.0-6de8391-sources.jar",
+          "url": "NookCore-Event-1.1.0-6de8391-sources.jar",
+          "size": 4762,
+          "sha512": "6943df96a55d1d58e3261ce689439a6189d420fc01cd029211c90399c53c4f17f383b7671f073b06defbd030342639665fb3b1ab5357cd06d16711171aabc366",
+          "sha256": "8d72474750ec4b0e3bb76ce5bc71d6ddc8d4f6e845261fd050573b1be34616a3",
+          "sha1": "6cc814b3c2a7dc67258288cf321a9c86c0ea59dc",
+          "md5": "62ae90c1b0dcdbb745cf7e282182b93b"
+        }
+      ]
+    }
+  ]
+}
