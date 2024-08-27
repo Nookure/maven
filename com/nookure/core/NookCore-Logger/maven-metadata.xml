@@ -3,11 +3,11 @@
   <groupId>com.nookure.core</groupId>
   <artifactId>NookCore-Logger</artifactId>
   <versioning>
-    <latest>1.1.0-9056105</latest>
-    <release>1.1.0-9056105</release>
+    <latest>1.1.0-d89740c</latest>
+    <release>1.1.0-d89740c</release>
     <versions>
-      <version>1.1.0-9056105</version>
+      <version>1.1.0-d89740c</version>
     </versions>
-    <lastUpdated>20240827001417</lastUpdated>
+    <lastUpdated>20240827105052</lastUpdated>
   </versioning>
 </metadata>
