@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.core",
+    "module": "NookCore-Bootstrapper",
+    "version": "1.1.0-3442d76",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "NookCore-Bootstrapper-1.1.0-3442d76.jar",
+          "url": "NookCore-Bootstrapper-1.1.0-3442d76.jar",
+          "size": 4804,
+          "sha512": "104cd0314a7a67f2eac37d562b0a95e199c89c7cfa6778e124c1bce5bcb60cdc087fedf41a425274689eb2811890f917f690148007a9187da8921f90415f6c4c",
+          "sha256": "2aca6dc38851fd94d970739591eea547c5a05aa8de8666be82b74293440d35ac",
+          "sha1": "fd8191074855d3a43f506566c7b4b0ad818144f2",
+          "md5": "905a4ee0635c1fb13ef6971aadbf1a3b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Bootstrapper-1.1.0-3442d76.jar",
+          "url": "NookCore-Bootstrapper-1.1.0-3442d76.jar",
+          "size": 4804,
+          "sha512": "104cd0314a7a67f2eac37d562b0a95e199c89c7cfa6778e124c1bce5bcb60cdc087fedf41a425274689eb2811890f917f690148007a9187da8921f90415f6c4c",
+          "sha256": "2aca6dc38851fd94d970739591eea547c5a05aa8de8666be82b74293440d35ac",
+          "sha1": "fd8191074855d3a43f506566c7b4b0ad818144f2",
+          "md5": "905a4ee0635c1fb13ef6971aadbf1a3b"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Bootstrapper-1.1.0-3442d76-all.jar",
+          "url": "NookCore-Bootstrapper-1.1.0-3442d76-all.jar",
+          "size": 4804,
+          "sha512": "192cedb28033cb5d3d22cc6fe6e0bd880b681b1724d7cd6b3fbc990eace28add430c6ade1a70c77c4d5e33c1b01d8604e4cd5e17c0e06331e5000c206861d558",
+          "sha256": "7251f4a961280a0f08648544364aaea18e413e40d27bae521c289ef5757ed95a",
+          "sha1": "dd51df4fa30f36fd52c355cc8213dea64848dc9f",
+          "md5": "7e1067d680718bbbcadb4d44980d3d56"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Bootstrapper-1.1.0-3442d76-javadoc.jar",
+          "url": "NookCore-Bootstrapper-1.1.0-3442d76-javadoc.jar",
+          "size": 99373,
+          "sha512": "3db9cffcf9ab1e4b936fdf8cba3e5ac288d2637344a7d979352043381f3f1a8e975a74b17a0489ea3076d3834b479fac429a03e883bdc6d8d979b30cbcd8f7bd",
+          "sha256": "824ab4c8641bc51e9a466d8cfb10c81a6afd2351c3d6e7ad8b71339a179ae886",
+          "sha1": "381ea756ae5e6626b86c1301e5916122b7132f36",
+          "md5": "094ce60c62315bc4dfe92a8d67be1148"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookCore-Bootstrapper-1.1.0-3442d76-sources.jar",
+          "url": "NookCore-Bootstrapper-1.1.0-3442d76-sources.jar",
+          "size": 2914,
+          "sha512": "ef1a3d6ed66bd637172d76a5778b8f214c030ee9bfd5e952efb7d28977d3dc0282732f782da5550e253936b2bca19edfbc41781e6591ce03a4d62591a56a181f",
+          "sha256": "086988d6da8a3c24acefc9bff0800c1a814b2fb03729f51880b05407789cbbfc",
+          "sha1": "80e4d34f6c0601c55990707ad2c69c8db9cedafb",
+          "md5": "812249483909a1f7a273e55d699ce0ce"
+        }
+      ]
+    }
+  ]
+}
