@@ -1,0 +1,201 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.staff",
+    "module": "NookureStaff-API",
+    "version": "1.4.1-0d5bb04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.papermc.paper",
+          "module": "paper-api",
+          "version": {
+            "requires": "1.21-R0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.0.0-jre"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.14.0"
+          }
+        },
+        {
+          "group": "redis.clients",
+          "module": "jedis",
+          "version": {
+            "requires": "4.4.0-m2"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.8"
+          }
+        },
+        {
+          "group": "io.ebean",
+          "module": "ebean",
+          "version": {
+            "requires": "15.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookureStaff-API-1.4.1-0d5bb04.jar",
+          "url": "NookureStaff-API-1.4.1-0d5bb04.jar",
+          "size": 160505,
+          "sha512": "d64566b15f6caeb47bafc96fa7f8a82fd0b7b221f869d1833f18dd19f5e66bde5f788c4abaec505680a0877f052135e5f5bffb2f8de23ed9eb89207604ac87dc",
+          "sha256": "2c20356f8b3e73a448a42b7b84275fc6c5f1c0a2fd8d25675652ed4cd7dd8992",
+          "sha1": "0fbbf5439710d8015677d25e8ffb644194eb2920",
+          "md5": "b730a032efff531934678a5a8dd18bd3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-yaml",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookureStaff-API-1.4.1-0d5bb04.jar",
+          "url": "NookureStaff-API-1.4.1-0d5bb04.jar",
+          "size": 160505,
+          "sha512": "d64566b15f6caeb47bafc96fa7f8a82fd0b7b221f869d1833f18dd19f5e66bde5f788c4abaec505680a0877f052135e5f5bffb2f8de23ed9eb89207604ac87dc",
+          "sha256": "2c20356f8b3e73a448a42b7b84275fc6c5f1c0a2fd8d25675652ed4cd7dd8992",
+          "sha1": "0fbbf5439710d8015677d25e8ffb644194eb2920",
+          "md5": "b730a032efff531934678a5a8dd18bd3"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookureStaff-API-1.4.1-0d5bb04-all.jar",
+          "url": "NookureStaff-API-1.4.1-0d5bb04-all.jar",
+          "size": 929684,
+          "sha512": "0860d72fb835ed8281abcf6d5699c64994fa299d989423ad033ec4d7575cf11d5cb2e393410628398b7026d5670802379e21c49a8d17a5c99220887fb92679c6",
+          "sha256": "d5d8f57862422ab45c8d995e792c692c6cd65433fb75d8e334c9227a831afe7c",
+          "sha1": "61275c47f9da9665afbf53021e5f33b10ce8a657",
+          "md5": "a5755a4f6ed2cbc6267fa7828336e661"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookureStaff-API-1.4.1-0d5bb04-javadoc.jar",
+          "url": "NookureStaff-API-1.4.1-0d5bb04-javadoc.jar",
+          "size": 619276,
+          "sha512": "146e88d566f3d2a3c39b519614c868a5bcc841555b7891a32865e2ce1b8b342ebb40f468b14781c1e5464572fb793cd36efc4b76675e1e8a68aa9615e8d39060",
+          "sha256": "1b1e5631867189ba21d499d58bd040754878c88bdb00c3b046840d05c2c76ee6",
+          "sha1": "db3a248d542c596f510497b974c2f1c6bf9425a9",
+          "md5": "51b5c4e242d9bc6f647393efdc8db9f4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookureStaff-API-1.4.1-0d5bb04-sources.jar",
+          "url": "NookureStaff-API-1.4.1-0d5bb04-sources.jar",
+          "size": 88508,
+          "sha512": "e316f4507e4467cc37cb505f6c7b724903fff084884b54e0e7caece74c2713e17dc59047b4f5711bcb70b09e9cda61528449633139209b869b3f1110c02a2ad0",
+          "sha256": "870f28ab833820d713a2a289611bda67e0de37b89558a1836a741bf01aaafaa2",
+          "sha1": "7aa2ea0e183d4b96a04a7fc0e0f4a6d5c5ce1730",
+          "md5": "94cb69b6077b212d99cdfd7ae79098b2"
+        }
+      ]
+    }
+  ]
+}
