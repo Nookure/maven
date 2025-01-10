@@ -1,0 +1,215 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nookure.staff",
+    "module": "NookureStaff-API",
+    "version": "1.5.1-f149a6d",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.papermc.paper",
+          "module": "paper-api",
+          "version": {
+            "requires": "1.21-R0.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.14.0"
+          }
+        },
+        {
+          "group": "redis.clients",
+          "module": "jedis",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-api",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "net.kyori",
+          "module": "adventure-text-minimessage",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.8"
+          }
+        },
+        {
+          "group": "io.ebean",
+          "module": "ebean",
+          "version": {
+            "requires": "15.1.0"
+          }
+        },
+        {
+          "group": "me.clip",
+          "module": "placeholderapi",
+          "version": {
+            "requires": "2.11.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookureStaff-API-1.5.1-f149a6d.jar",
+          "url": "NookureStaff-API-1.5.1-f149a6d.jar",
+          "size": 194808,
+          "sha512": "57ca9800d4fd5d0c1996e226656429c29a4eb7bbf6b0854fd9a6e213ddeecdb57e5185b319efe158ae0d82726a4ef9b99e8e92e32e4b3245dff8105d653c778e",
+          "sha256": "bb828e1d13e0c53d982ef5986a3733456bdad9cbd4d32ad23dc6792446b3cd20",
+          "sha1": "da95bfd954aa581913c98c2c7f6cef27bfdb93e7",
+          "md5": "2023992f3a6a7884e9e63a1e6a8a07ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.spongepowered",
+          "module": "configurate-yaml",
+          "version": {
+            "requires": "4.2.0-YAML-COMMENTED-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.auto.value",
+          "module": "auto-value-annotations",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "NookureStaff-API-1.5.1-f149a6d.jar",
+          "url": "NookureStaff-API-1.5.1-f149a6d.jar",
+          "size": 194808,
+          "sha512": "57ca9800d4fd5d0c1996e226656429c29a4eb7bbf6b0854fd9a6e213ddeecdb57e5185b319efe158ae0d82726a4ef9b99e8e92e32e4b3245dff8105d653c778e",
+          "sha256": "bb828e1d13e0c53d982ef5986a3733456bdad9cbd4d32ad23dc6792446b3cd20",
+          "sha1": "da95bfd954aa581913c98c2c7f6cef27bfdb93e7",
+          "md5": "2023992f3a6a7884e9e63a1e6a8a07ab"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookureStaff-API-1.5.1-f149a6d-all.jar",
+          "url": "NookureStaff-API-1.5.1-f149a6d-all.jar",
+          "size": 970993,
+          "sha512": "336b0bc36a532d307ae9a6602df244853a6b426ee567ccf66b471ee043e12b88de1ceff8158d53cfd9ab1458700dd6b47131a97cb722fb70d978e065c140b2b2",
+          "sha256": "f521ab18f3931315c143d7bfded9c4db9e7c25395833f503240d953ffdfcd677",
+          "sha1": "d491d168732d0c303c8b8fe58a5172cf8629c31e",
+          "md5": "387d5f7342a9c48ae3c04c02380d2d5a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookureStaff-API-1.5.1-f149a6d-javadoc.jar",
+          "url": "NookureStaff-API-1.5.1-f149a6d-javadoc.jar",
+          "size": 737779,
+          "sha512": "5be0ea7150d55bde948b6f42db7ff546d961db74af1dc0109a4246b81eeb59d9f068bd6df51d8896dfdc55326a61fd7b2bea8582102153a6826c765f60fe6c61",
+          "sha256": "171c04efb0aec0b62ce0def2697a5712208b173019b19f3e5d16d366efbc2757",
+          "sha1": "a795bd4e72c8008b44f229235149dc3b38d1124a",
+          "md5": "3f3d4108d1d1e1796e420a47292706b6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "NookureStaff-API-1.5.1-f149a6d-sources.jar",
+          "url": "NookureStaff-API-1.5.1-f149a6d-sources.jar",
+          "size": 105890,
+          "sha512": "545460bb18b0d4acb1b836355db79150c11b62b777296fd250b1a4599bbf6d27711bdeb0c8ae00d508cda3cc61e661f374e8f35a83d0a37589f6a23e06100ce7",
+          "sha256": "19c19abf7f4bfe8030155c6cc878c77cb794e6cd5d87e231e3a0d72fbae1d845",
+          "sha1": "ff0b2857a0fac9eb030ae07b341c12d4cc1a71c0",
+          "md5": "026fc3b80aa63dc9327aeb1d3a9f602f"
+        }
+      ]
+    }
+  ]
+}
